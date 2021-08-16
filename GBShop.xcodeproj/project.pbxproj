@@ -99,13 +99,14 @@
 		D53FF7B026CA4D8600A96554 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
+				D53FF7E226CA528800A96554 /* Utils */,
+				D53FF7E126CA527E00A96554 /* App */,
 				D53FF7B126CA4D8600A96554 /* AppDelegate.swift */,
 				D53FF7B326CA4D8600A96554 /* SceneDelegate.swift */,
 				D53FF7B526CA4D8600A96554 /* ViewController.swift */,
 				D53FF7B726CA4D8600A96554 /* Main.storyboard */,
-				D53FF7BA26CA4D8600A96554 /* Assets.xcassets */,
 				D53FF7BC26CA4D8600A96554 /* LaunchScreen.storyboard */,
-				D53FF7BF26CA4D8600A96554 /* Info.plist */,
+				D53FF7E326CA529100A96554 /* Resources */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -126,6 +127,29 @@
 				D53FF7D526CA4D8700A96554 /* Info.plist */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		D53FF7E126CA527E00A96554 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D53FF7E226CA528800A96554 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D53FF7E326CA529100A96554 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D53FF7BA26CA4D8600A96554 /* Assets.xcassets */,
+				D53FF7BF26CA4D8600A96554 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +462,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2H6D9L7L;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2H6D9L7L;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
